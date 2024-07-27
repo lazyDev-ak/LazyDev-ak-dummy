@@ -7,6 +7,7 @@ function App() {
       <div className="App">
         <h1>Custom Text Editor</h1>
         <Editor />
+        <div>Hello</div>
       </div>
     </div>
   );
