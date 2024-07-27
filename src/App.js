@@ -8,6 +8,7 @@ function App() {
         <h1>Custom Text Editor</h1>
         <Editor />
         <div>Hello</div>
+        <div>Bye</div>
       </div>
     </div>
   );
