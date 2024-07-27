@@ -4,7 +4,7 @@ import './Editor.css';
 const Editor = () => {
   const editorRef = useRef(null);
   const [selectedText, setSelectedText] = useState('');
-    console.log("Hello");
+
   const formatText = (command, value = null) => {
     console.log("dataInBox "+command,"value",value);
     document.execCommand(command, false, value);
